@@ -10,9 +10,7 @@ Additional information available at:
 PROJECT 2 README
 LINK: https://drive.google.com/file/d/1Sch8PvvN-XCdEqreri_CBgWiWgU-ss98/view?usp=sharing
 
-DISCLAIMER
-I messaged the TA about the issue of my phone and laptop being stolen and having to restart during the weekend. Due to this I had to
-rush and wasn't able to finish com
+
 
 PROJECT STRUCTURE
 yakserver.cpp: The server application that manages client connections and broadcasts messages.
@@ -156,11 +154,3 @@ the Dragonfly config file, df-config.txt, and the methods for the
 Config singleton in "Config.h".  For example, configuration of the
 amount of health can be set in the file:
 
-  # Amount of health for the Hero.
-  health:100,
-
-and matched with:
-
-  std::string s = df::Config::getInstance().match("health");
-  if (s != "")
-    int health = atoi(s.c_str());
